@@ -1,0 +1,110 @@
+.bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    font-family: Roboto, Arial;
+}
+.bgimg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 1080px;
+    z-index: -1;
+}
+.login{
+    margin-top: 180px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(94, 83, 64, 0.384);
+    border-radius: 35px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.211);
+
+}
+.alert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 30px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75px;
+    justify-content: space-between;
+}
+.input{
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid rgba(94, 83, 64, 0.384);
+    height: 30px;
+    width: 200px;
+    margin-bottom: none;
+    background-color: rgba(0, 0, 0, 0.292);
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.292);
+    padding-left: 7px;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    color: rgba(240, 248, 255, 0.455);
+}
+.forgor{
+    margin-top: none;
+    padding-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size: 15px;
+    color: aliceblue;
+
+}
+.forgro{
+    color: aliceblue;
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.in{
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgba(94, 83, 64, 0.384);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.292);
+    font-size: 15px;
+}
+.in:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.211);
+}
+.in:active{
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.211);
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+.signup{
+    text-decoration: underline;
+    color: aliceblue;
+}
+.signup:hover{
+    cursor: pointer;
+}
